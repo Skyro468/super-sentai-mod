@@ -30,7 +30,7 @@ public class item_gao_jewel extends Item implements IHasModel
 		num=armor;
 		num2=part;
 
-	    setTranslationKey(name);
+	    setUnlocalizedName(name);
         setRegistryName(name);
         TokuCraft_core.ITEMS.add(this);
 	}

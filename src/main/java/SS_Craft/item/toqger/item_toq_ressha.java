@@ -31,7 +31,7 @@ public class item_toq_ressha extends Item implements IHasModel
 		num=form;
 		num2=armor;
 
-	    setTranslationKey(name);
+	    setUnlocalizedName(name);
         setRegistryName(name);
         TokuCraft_core.ITEMS.add(this);
 	}

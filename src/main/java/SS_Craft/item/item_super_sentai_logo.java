@@ -34,7 +34,7 @@ public class item_super_sentai_logo extends Item implements IHasModel
 		super();
 		this.setMaxDamage(0);
 
-	    setTranslationKey(name);
+	    setUnlocalizedName(name);
         setRegistryName(name);
         TokuCraft_core.ITEMS.add(this);
 	}

@@ -23,7 +23,7 @@ public class Item_ore extends Item implements IHasModel
         super();
         this.setMaxDamage(0);
         maxStackSize = 64;
-        setTranslationKey(name);
+        setUnlocalizedName(name);
         setRegistryName(name);
         TokuCraft_core.ITEMS.add(this);
 

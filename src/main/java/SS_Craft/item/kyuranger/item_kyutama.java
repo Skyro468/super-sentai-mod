@@ -30,7 +30,7 @@ public class item_kyutama extends Item implements IHasModel
 
 		num=form;
 
-	    setTranslationKey(name);
+	    setUnlocalizedName(name);
         setRegistryName(name);
         TokuCraft_core.ITEMS.add(this);
 	}
@@ -42,7 +42,7 @@ public class item_kyutama extends Item implements IHasModel
 
 		num2=arms;
 
-	    setTranslationKey(name);
+	    setUnlocalizedName(name);
         setRegistryName(name);
         TokuCraft_core.ITEMS.add(this);
 	}

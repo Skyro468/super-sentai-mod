@@ -40,14 +40,14 @@ public class item_sono_shield extends ItemShield implements IHasModel
     {
         super();
         this.maxStackSize = 1;
-        setTranslationKey(name);
+        setUnlocalizedName(name);
         setRegistryName(name);
         TokuCraft_core.ITEMS.add(this);
     }
     
     public String getItemStackDisplayName(ItemStack stack)
     {
-            return I18n.translateToLocal(getTranslationKey() + ".name");
+            return I18n.translateToLocal(getUnlocalizedName() + ".name");
     }
     
     @Override

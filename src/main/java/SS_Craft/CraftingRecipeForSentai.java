@@ -806,6 +806,23 @@ public class CraftingRecipeForSentai
 		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":gaisoul_shield"), new ResourceLocation(Refercence.MODID+":ryusoulger"),new ItemStack(RiderItems.gaisoul_shield,1), "aaa", "acb", "aaa", 'a', RiderItems.blank_ryusoul, 'b', RiderItems.gai_soul, 'c', Items.IRON_SWORD);
 		*/
 		
+				// ToQger
+		GameRegistry.addSmelting(SentaiItems40.toqger_ore, new ItemStack(SentaiItems40.toqger_logo,1), 10f);
+		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":blank_ressha"), new ResourceLocation(Refercence.MODID+":toqger"),new ItemStack(SentaiItems40.blank_ressha,1), "aaa", "aba", "aaa", 'a', Items.IRON_INGOT, 'b', Items.REDSTONE);
+		GameRegistry.addShapelessRecipe(new ResourceLocation(Refercence.MODID+":red_ressha"), new ResourceLocation(Refercence.MODID+":toqger"),new ItemStack(SentaiItems40.red_ressha,1), new Ingredient[]{Ingredient.fromItem(SentaiItems40.blank_ressha),Ingredient.fromStacks(new ItemStack(Items.DYE,1,1))});
+		GameRegistry.addShapelessRecipe(new ResourceLocation(Refercence.MODID+":blue_ressha"), new ResourceLocation(Refercence.MODID+":toqger"),new ItemStack(SentaiItems40.blue_ressha,1), new Ingredient[]{Ingredient.fromItem(SentaiItems40.blank_ressha),Ingredient.fromStacks(new ItemStack(Items.DYE,1,4))});
+		GameRegistry.addShapelessRecipe(new ResourceLocation(Refercence.MODID+":yellow_ressha"), new ResourceLocation(Refercence.MODID+":toqger"),new ItemStack(SentaiItems40.yellow_ressha,1), new Ingredient[]{Ingredient.fromItem(SentaiItems40.blank_ressha),Ingredient.fromStacks(new ItemStack(Items.DYE,1,11))});
+		GameRegistry.addShapelessRecipe(new ResourceLocation(Refercence.MODID+":green_ressha"), new ResourceLocation(Refercence.MODID+":toqger"),new ItemStack(SentaiItems40.green_ressha,1), new Ingredient[]{Ingredient.fromItem(SentaiItems40.blank_ressha),Ingredient.fromStacks(new ItemStack(Items.DYE,1,2))});
+		GameRegistry.addShapelessRecipe(new ResourceLocation(Refercence.MODID+":pink_ressha"), new ResourceLocation(Refercence.MODID+":toqger"),new ItemStack(SentaiItems40.pink_ressha,1), new Ingredient[]{Ingredient.fromItem(SentaiItems40.blank_ressha),Ingredient.fromStacks(new ItemStack(Items.DYE,1,9))});
+		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":ichigou_toq_changer"), new ResourceLocation(Refercence.MODID+":toq_1gou"),new ItemStack(SentaiItems40.ichigou_toq_changer,1), "aaa", "aba", "aaa", 'a', SentaiItems40.toqger_logo, 'b', SentaiItems40.red_ressha);
+		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":nigou_toq_changer"), new ResourceLocation(Refercence.MODID+":toq_2gou"),new ItemStack(SentaiItems40.nigou_toq_changer,1), "aaa", "aba", "aaa", 'a', SentaiItems40.toqger_logo, 'b', SentaiItems40.blue_ressha);
+		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":sangou_toq_changer"), new ResourceLocation(Refercence.MODID+":toq_3gou"),new ItemStack(SentaiItems40.sangou_toq_changer,1), "aaa", "aba", "aaa", 'a', SentaiItems40.toqger_logo, 'b', SentaiItems40.yellow_ressha);
+		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":yongou_toq_changer"), new ResourceLocation(Refercence.MODID+":toq_4gou"),new ItemStack(SentaiItems40.yongou_toq_changer,1), "aaa", "aba", "aaa", 'a', SentaiItems40.toqger_logo, 'b', SentaiItems40.green_ressha);
+		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":gogou_toq_changer"), new ResourceLocation(Refercence.MODID+":toq_5gou"),new ItemStack(SentaiItems40.gogou_toq_changer,1), "aaa", "aba", "aaa", 'a', SentaiItems40.toqger_logo, 'b', SentaiItems40.pink_ressha);
+		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":toqger_head"), new ResourceLocation(Refercence.MODID+":toqger"),new ItemStack(SentaiItems40.toqger_head,1), "aaa","a a", 'a', SentaiItems40.toqger_logo);
+		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":toqger_torso"), new ResourceLocation(Refercence.MODID+":toqger"),new ItemStack(SentaiItems40.toqger_torso,1),"a a", "aaa","aaa", 'a', SentaiItems40.toqger_logo);
+		GameRegistry.addShapedRecipe(new ResourceLocation(Refercence.MODID+":toqger_legs"), new ResourceLocation(Refercence.MODID+":toqger"),new ItemStack(SentaiItems40.toqger_legs,1),"aaa", "a a","a a", 'a', SentaiItems40.toqger_logo);
+
 		GameRegistry.addSmelting(new ItemStack(SentaiItems60.argo_kyutama),new ItemStack(SentaiItems60.houou_kyutama), 1);
 	}
 }

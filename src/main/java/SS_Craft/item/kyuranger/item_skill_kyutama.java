@@ -53,7 +53,7 @@ public class item_skill_kyutama extends Item implements IHasModel
 	public item_skill_kyutama(int effect,String name)
 	{
 		super();
-        setTranslationKey(name);
+        setUnlocalizedName(name);
         setRegistryName(name);
         TokuCraft_core.ITEMS.add(this);
 		this.setMaxDamage(0);

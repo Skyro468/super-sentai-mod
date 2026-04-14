@@ -33,7 +33,7 @@ public class item_zenkai_gear extends Item implements IHasModel
 
 		num=armor;
 
-	    setTranslationKey(name);
+	    setUnlocalizedName(name);
         setRegistryName(name);
         TokuCraft_core.ITEMS.add(this);
 	}

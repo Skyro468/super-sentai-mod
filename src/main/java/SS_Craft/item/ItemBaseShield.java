@@ -44,7 +44,7 @@ public class ItemBaseShield extends ItemShield implements IHasModel
     {
         super();
         this.maxStackSize = 1;
-        setTranslationKey(name);
+        setUnlocalizedName(name);
         setRegistryName(name);
         TokuCraft_core.ITEMS.add(this);
         base = item;
@@ -81,7 +81,7 @@ public class ItemBaseShield extends ItemShield implements IHasModel
     
     public String getItemStackDisplayName(ItemStack stack)
     {
-            return I18n.translateToLocal(getTranslationKey() + ".name");
+            return I18n.translateToLocal(getUnlocalizedName() + ".name");
     }
     
 	@Override

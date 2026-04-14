@@ -57,7 +57,7 @@ public class item_mecha extends ItemArmor implements IHasModel
 		this.setMaxDamage(par2EnumArmorMaterial.getDurability(EntityEquipmentSlot.HEAD));
 		this.maxStackSize = 1;
 		Rider=rider;
-		setTranslationKey(name);
+		setUnlocalizedName(name);
 		setRegistryName(name);
 		TokuCraft_core.ITEMS.add(this);
 		Base_Form_Item=baseFormItem;

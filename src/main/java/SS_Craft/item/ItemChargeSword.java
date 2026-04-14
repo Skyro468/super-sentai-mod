@@ -41,7 +41,7 @@ public class ItemChargeSword extends ItemSword implements IHasModel
 		this.setMaxDamage(par2EnumToolMaterial.getMaxUses());
 		base = item;
 		// Imcharge=charge; 
-		setTranslationKey(name);
+		setUnlocalizedName(name);
 		setRegistryName(name);
 		TokuCraft_core.ITEMS.add(this);
 

@@ -45,7 +45,7 @@ public class item_ryusoul_calibur extends ItemSword implements IHasModel
         this.toolMaterial = par2EnumToolMaterial;
         this.maxStackSize = 1;
         this.setMaxDamage(par2EnumToolMaterial.getMaxUses());
-        setTranslationKey(name);
+        setUnlocalizedName(name);
         setRegistryName(name);
         TokuCraft_core.ITEMS.add(this);
     }

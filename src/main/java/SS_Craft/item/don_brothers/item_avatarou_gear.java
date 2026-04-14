@@ -36,7 +36,7 @@ public class item_avatarou_gear extends Item implements IHasModel
 
 		num=armor;
 
-	    setTranslationKey(name);
+	    setUnlocalizedName(name);
         setRegistryName(name);
         TokuCraft_core.ITEMS.add(this);
 	}
@@ -48,7 +48,7 @@ public class item_avatarou_gear extends Item implements IHasModel
 
 		num2=form;
 
-	    setTranslationKey(name);
+	    setUnlocalizedName(name);
         setRegistryName(name);
         TokuCraft_core.ITEMS.add(this);
 	}

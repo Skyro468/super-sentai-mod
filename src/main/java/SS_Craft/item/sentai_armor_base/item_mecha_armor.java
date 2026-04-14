@@ -37,7 +37,7 @@ public class item_mecha_armor extends ItemArmor  implements IHasModel
 		par2EnumArmorMaterial.getDamageReductionAmount(par4);
 		this.setMaxDamage(par2EnumArmorMaterial.getDurability(par4));
 		this.maxStackSize = 1;
-		setTranslationKey(name);
+		setUnlocalizedName(name);
 		setRegistryName(name);
 		TokuCraft_core.ITEMS.add(this);
 		BELTCLASS=beltClass;

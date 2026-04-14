@@ -29,7 +29,7 @@ public class item_manga extends Item implements IHasModel
 
 		num=armor;
 
-	    setTranslationKey(name);
+	    setUnlocalizedName(name);
         setRegistryName(name);
         TokuCraft_core.ITEMS.add(this);
 	}

@@ -28,7 +28,7 @@ public class item_sp_badge extends Item implements IHasModel
 
 		num=armor;
 
-	    setTranslationKey(name);
+	    setUnlocalizedName(name);
         setRegistryName(name);
         TokuCraft_core.ITEMS.add(this);
 	}

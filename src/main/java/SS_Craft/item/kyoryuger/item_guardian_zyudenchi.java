@@ -58,7 +58,7 @@ public class item_guardian_zyudenchi extends Item implements IHasModel
 	public item_guardian_zyudenchi(int effect,String name)
 	{
 		super();
-        setTranslationKey(name);
+        setUnlocalizedName(name);
         setRegistryName(name);
         TokuCraft_core.ITEMS.add(this);
 		this.setMaxDamage(0);
@@ -69,7 +69,7 @@ public class item_guardian_zyudenchi extends Item implements IHasModel
 	public item_guardian_zyudenchi(String name)
 	{
 		super();
-        setTranslationKey(name);
+        setUnlocalizedName(name);
         setRegistryName(name);
         TokuCraft_core.ITEMS.add(this);
 		this.setMaxDamage(0);

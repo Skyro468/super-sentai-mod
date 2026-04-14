@@ -27,7 +27,7 @@ public class item_battleraizer extends Item implements IHasModel
 		super();
 		setMaxDamage(0);
 		maxStackSize = 1;
-	    setTranslationKey(name);
+	    setUnlocalizedName(name);
 	    setRegistryName(name);
 	    TokuCraft_core.ITEMS.add(this);
 	}

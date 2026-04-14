@@ -46,7 +46,7 @@ public class item_dual_sword extends ItemSword implements IHasModel
 		this.setMaxDamage(par2EnumToolMaterial.getMaxUses());
 
 		// Imcharge=charge; 
-		setTranslationKey(name);
+		setUnlocalizedName(name);
 		setRegistryName(name);
 		TokuCraft_core.ITEMS.add(this);
         base = item;

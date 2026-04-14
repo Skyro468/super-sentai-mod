@@ -45,7 +45,7 @@ public class Tabs
 	        return new net.minecraft.util.ResourceLocation(Refercence.MODID,"textures/gui/tab_goranger_items.png");
 	    }
 		@Override
-		public ItemStack createIcon() {
+		public ItemStack getTabIconItem() {
 			return new ItemStack(SentaiItems20.goranger_head);
 		}
 	};
@@ -58,7 +58,7 @@ public class Tabs
 	        return new net.minecraft.util.ResourceLocation(Refercence.MODID,"textures/gui/tab_jakq_items.png");
 	    }
 		@Override
-		public ItemStack createIcon() {
+		public ItemStack getTabIconItem() {
 			return new ItemStack(SentaiItems20.jakq_head);
 		}
 	};
@@ -71,7 +71,7 @@ public class Tabs
 	        return new net.minecraft.util.ResourceLocation(Refercence.MODID,"textures/gui/tab_battle_fever_items.png");
 	    }
 		@Override
-		public ItemStack createIcon() {
+		public ItemStack getTabIconItem() {
 			return new ItemStack(SentaiItems20.battle_fever_head);
 		}
 	};
@@ -84,7 +84,7 @@ public class Tabs
 	        return new net.minecraft.util.ResourceLocation(Refercence.MODID,"textures/gui/tab_denziman_items.png");
 	    }
 		@Override
-		public ItemStack createIcon() {
+		public ItemStack getTabIconItem() {
 			return new ItemStack(SentaiItems20.denziman_head);
 		}
 	};
@@ -97,7 +97,7 @@ public class Tabs
 	        return new net.minecraft.util.ResourceLocation(Refercence.MODID,"textures/gui/tab_sun_vulcan_items.png");
 	    }
 		@Override
-		public ItemStack createIcon() {
+		public ItemStack getTabIconItem() {
 			return new ItemStack(SentaiItems20.sun_vulcan_head);
 		}
 	};
@@ -110,7 +110,7 @@ public class Tabs
 	        return new net.minecraft.util.ResourceLocation(Refercence.MODID,"textures/gui/tab_goggle_v_items.png");
 	    }
 		@Override
-		public ItemStack createIcon() {
+		public ItemStack getTabIconItem() {
 			return new ItemStack(SentaiItems20.goggle_v_head);
 		}
 	};
@@ -123,7 +123,7 @@ public class Tabs
 	        return new net.minecraft.util.ResourceLocation(Refercence.MODID,"textures/gui/tab_bioman_items.png");
 	    }
 		@Override
-		public ItemStack createIcon() {
+		public ItemStack getTabIconItem() {
 			return new ItemStack(SentaiItems20.bioman_head);
 		}
 	};
@@ -136,7 +136,7 @@ public class Tabs
 	        return new net.minecraft.util.ResourceLocation(Refercence.MODID,"textures/gui/tab_flashman_items.png");
 	    }
 		@Override
-		public ItemStack createIcon() {
+		public ItemStack getTabIconItem() {
 			return new ItemStack(SentaiItems20.flashman_head);
 		}
 	};
@@ -149,7 +149,7 @@ public class Tabs
 	        return new net.minecraft.util.ResourceLocation(Refercence.MODID,"textures/gui/tab_maskman_items.png");
 	    }
 		@Override
-		public ItemStack createIcon() {
+		public ItemStack getTabIconItem() {
 			return new ItemStack(SentaiItems20.maskman_head);
 		}
 	};
@@ -162,7 +162,7 @@ public class Tabs
 	        return new net.minecraft.util.ResourceLocation(Refercence.MODID,"textures/gui/tab_liveman_items.png");
 	    }
 		@Override
-		public ItemStack createIcon() {
+		public ItemStack getTabIconItem() {
 			return new ItemStack(SentaiItems20.liveman_head);
 		}
 	};
@@ -175,7 +175,7 @@ public class Tabs
 	        return new net.minecraft.util.ResourceLocation(Refercence.MODID,"textures/gui/tab_turboranger_items.png");
 	    }
 		@Override
-		public ItemStack createIcon() {
+		public ItemStack getTabIconItem() {
 			return new ItemStack(SentaiItems20.turboranger_head);
 		}
 	};
@@ -188,7 +188,7 @@ public class Tabs
 	        return new net.minecraft.util.ResourceLocation(Refercence.MODID,"textures/gui/tab_jetman_items.png");
 	    }
 		@Override
-		public ItemStack createIcon() {
+		public ItemStack getTabIconItem() {
 			return new ItemStack(SentaiItems20.jetman_head);
 		}
 	};
@@ -201,7 +201,7 @@ public class Tabs
 	        return new net.minecraft.util.ResourceLocation(Refercence.MODID,"textures/gui/tab_zyuranger_items.png");
 	    }
 		@Override
-		public ItemStack createIcon() {
+		public ItemStack getTabIconItem() {
 			return new ItemStack(SentaiItems20.zyuranger_head);
 		}
 	};
@@ -214,7 +214,7 @@ public class Tabs
 	        return new net.minecraft.util.ResourceLocation(Refercence.MODID,"textures/gui/tab_dairanger_items.png");
 	    }
 		@Override
-		public ItemStack createIcon() {
+		public ItemStack getTabIconItem() {
 			return new ItemStack(SentaiItems20.dairanger_head);
 		}
 	};
@@ -227,7 +227,7 @@ public class Tabs
 	        return new net.minecraft.util.ResourceLocation(Refercence.MODID,"textures/gui/tab_kakuranger_items.png");
 	    }
 		@Override
-		public ItemStack createIcon() {
+		public ItemStack getTabIconItem() {
 			return new ItemStack(SentaiItems20.kakuranger_head);
 		}
 	};
@@ -240,7 +240,7 @@ public class Tabs
 	        return new net.minecraft.util.ResourceLocation(Refercence.MODID,"textures/gui/tab_carranger_items.png");
 	    }
 		@Override
-		public ItemStack createIcon() {
+		public ItemStack getTabIconItem() {
 			return new ItemStack(SentaiItems20.carranger_head);
 		}
 	};
@@ -253,7 +253,7 @@ public class Tabs
 	        return new net.minecraft.util.ResourceLocation(Refercence.MODID,"textures/gui/tab_megaranger_items.png");
 	    }
 		@Override
-		public ItemStack createIcon() {
+		public ItemStack getTabIconItem() {
 			return new ItemStack(SentaiItems40.megaranger_head);
 		}
 	};
@@ -266,7 +266,7 @@ public class Tabs
 	        return new net.minecraft.util.ResourceLocation(Refercence.MODID,"textures/gui/tab_gingaman_items.png");
 	    }
 		@Override
-		public ItemStack createIcon() {
+		public ItemStack getTabIconItem() {
 			return new ItemStack(SentaiItems40.gingaman_head);
 		}
 	};
@@ -279,7 +279,7 @@ public class Tabs
 	        return new net.minecraft.util.ResourceLocation(Refercence.MODID,"textures/gui/tab_gogo_v_items.png");
 	    }
 		@Override
-		public ItemStack createIcon() {
+		public ItemStack getTabIconItem() {
 			return new ItemStack(SentaiItems40.gogo_v_head);
 		}
 	};
@@ -292,7 +292,7 @@ public class Tabs
 	        return new net.minecraft.util.ResourceLocation(Refercence.MODID,"textures/gui/tab_gaoranger_items.png");
 	    }
 		@Override
-		public ItemStack createIcon() {
+		public ItemStack getTabIconItem() {
 			return new ItemStack(SentaiItems40.gaoranger_head);
 		}
 	};
@@ -305,7 +305,7 @@ public class Tabs
 	        return new net.minecraft.util.ResourceLocation(Refercence.MODID,"textures/gui/tab_abaranger_items.png");
 	    }
 		@Override
-		public ItemStack createIcon() {
+		public ItemStack getTabIconItem() {
 			return new ItemStack(SentaiItems40.abaranger_head);
 		}
 	};
@@ -318,7 +318,7 @@ public class Tabs
 	        return new net.minecraft.util.ResourceLocation(Refercence.MODID,"textures/gui/tab_dekaranger_items.png");
 	    }
 		@Override
-		public ItemStack createIcon() {
+		public ItemStack getTabIconItem() {
 			return new ItemStack(SentaiItems40.dekaranger_head);
 		}
 	};
@@ -331,7 +331,7 @@ public class Tabs
 	        return new net.minecraft.util.ResourceLocation(Refercence.MODID,"textures/gui/tab_boukenger_items.png");
 	    }
 		@Override
-		public ItemStack createIcon() {
+		public ItemStack getTabIconItem() {
 			return new ItemStack(SentaiItems40.boukenger_head);
 		}
 	};
@@ -344,7 +344,7 @@ public class Tabs
 	        return new net.minecraft.util.ResourceLocation(Refercence.MODID,"textures/gui/tab_gekiranger_items.png");
 	    }
 		@Override
-		public ItemStack createIcon() {
+		public ItemStack getTabIconItem() {
 			return new ItemStack(SentaiItems40.gekiranger_head);
 		}
 	};
@@ -357,7 +357,7 @@ public class Tabs
 	        return new net.minecraft.util.ResourceLocation(Refercence.MODID,"textures/gui/tab_go_onger_items.png");
 	    }
 		@Override
-		public ItemStack createIcon() {
+		public ItemStack getTabIconItem() {
 			return new ItemStack(SentaiItems40.go_onger_head);
 		}
 	};
@@ -370,7 +370,7 @@ public class Tabs
 	        return new net.minecraft.util.ResourceLocation(Refercence.MODID,"textures/gui/tab_shinkenger_items.png");
 	    }
 		@Override
-		public ItemStack createIcon() {
+		public ItemStack getTabIconItem() {
 			return new ItemStack(SentaiItems40.shinkenger_head);
 		}
 	};
@@ -383,7 +383,7 @@ public class Tabs
 	        return new net.minecraft.util.ResourceLocation(Refercence.MODID,"textures/gui/tab_go_busters_items.png");
 	    }
 		@Override
-		public ItemStack createIcon() {
+		public ItemStack getTabIconItem() {
 			return new ItemStack(SentaiItems40.go_busters_head);
 		}
 	};
@@ -396,7 +396,7 @@ public class Tabs
 	        return new net.minecraft.util.ResourceLocation(Refercence.MODID,"textures/gui/tab_akibaranger_items.png");
 	    }
 		@Override
-		public ItemStack createIcon() {
+		public ItemStack getTabIconItem() {
 			return new ItemStack(SentaiItems40.akibaranger_head);
 		}
 	};
@@ -409,7 +409,7 @@ public class Tabs
 	        return new net.minecraft.util.ResourceLocation(Refercence.MODID,"textures/gui/tab_kyoryuger_items.png");
 	    }
 		@Override
-		public ItemStack createIcon() {
+		public ItemStack getTabIconItem() {
 			return new ItemStack(SentaiItems40.kyoryuger_head);
 		}
 	};
@@ -422,7 +422,7 @@ public class Tabs
 	        return new net.minecraft.util.ResourceLocation(Refercence.MODID,"textures/gui/tab_toqger_items.png");
 	    }
 		@Override
-		public ItemStack createIcon() {
+		public ItemStack getTabIconItem() {
 			return new ItemStack(SentaiItems40.toqger_head);
 		}
 	};
@@ -435,7 +435,7 @@ public class Tabs
 	        return new net.minecraft.util.ResourceLocation(Refercence.MODID,"textures/gui/tab_zyuohger_items.png");
 	    }
 		@Override
-		public ItemStack createIcon() {
+		public ItemStack getTabIconItem() {
 			return new ItemStack(SentaiItems40.zyuohger_head);
 		}
 	};
@@ -448,7 +448,7 @@ public class Tabs
 	        return new net.minecraft.util.ResourceLocation(Refercence.MODID,"textures/gui/tab_kyuranger_items.png");
 	    }
 		@Override
-		public ItemStack createIcon() {
+		public ItemStack getTabIconItem() {
 			return new ItemStack(SentaiItems60.kyuranger_head);
 		}
 	};
@@ -461,7 +461,7 @@ public class Tabs
 	        return new net.minecraft.util.ResourceLocation(Refercence.MODID,"textures/gui/tab_lupat_items.png");
 	    }
 		@Override
-		public ItemStack createIcon() {
+		public ItemStack getTabIconItem() {
 			return new ItemStack(SentaiItems60.lupat_head);
 		}
 	};
@@ -474,7 +474,7 @@ public class Tabs
 	        return new net.minecraft.util.ResourceLocation(Refercence.MODID,"textures/gui/tab_ryusoulger_items.png");
 	    }
 		@Override
-		public ItemStack createIcon() {
+		public ItemStack getTabIconItem() {
 			return new ItemStack(SentaiItems60.ryusoulger_head);
 		}
 	};
@@ -487,7 +487,7 @@ public class Tabs
 	        return new net.minecraft.util.ResourceLocation(Refercence.MODID,"textures/gui/tab_kirameiger_items.png");
 	    }
 		@Override
-		public ItemStack createIcon() {
+		public ItemStack getTabIconItem() {
 			return new ItemStack(SentaiItems60.kirameiger_head);
 		}
 	};
@@ -500,7 +500,7 @@ public class Tabs
 	        return new net.minecraft.util.ResourceLocation(Refercence.MODID,"textures/gui/tab_zenkaiger_items.png");
 	    }
 		@Override
-		public ItemStack createIcon() {
+		public ItemStack getTabIconItem() {
 			return new ItemStack(SentaiItems60.zenkaiger_head);
 		}
 	};
@@ -513,7 +513,7 @@ public class Tabs
 	        return new net.minecraft.util.ResourceLocation(Refercence.MODID,"textures/gui/tab_don_brothers_items.png");
 	    }
 		@Override
-		public ItemStack createIcon() {
+		public ItemStack getTabIconItem() {
 			return new ItemStack(SentaiItems60.don_brothers_head);
 		}
 	};
@@ -526,7 +526,7 @@ public class Tabs
 	        return new net.minecraft.util.ResourceLocation(Refercence.MODID,"textures/gui/tab_misc_items.png");
 	    }
 		@Override
-		public ItemStack createIcon() {
+		public ItemStack getTabIconItem() {
 			return new ItemStack(SentaiItems20.super_sentai_logo);
 		}
 	};

@@ -37,7 +37,7 @@ public class item_form_changer extends Item implements IHasModel
 	{
 		super();
 		this.setMaxDamage(0);
-		setTranslationKey(name);
+		setUnlocalizedName(name);
 		setRegistryName(name);
 		TokuCraft_core.ITEMS.add(this);
 		potionEffectList = Lists.newArrayList(effects);

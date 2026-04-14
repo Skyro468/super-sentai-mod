@@ -30,7 +30,7 @@ public class item_ryusoul extends Item implements IHasModel
 
 		num=armor;
 
-	    setTranslationKey(name);
+	    setUnlocalizedName(name);
         setRegistryName(name);
         TokuCraft_core.ITEMS.add(this);
 	}
@@ -42,7 +42,7 @@ public class item_ryusoul extends Item implements IHasModel
 
 		num2=soul;
 
-	    setTranslationKey(name);
+	    setUnlocalizedName(name);
         setRegistryName(name);
         TokuCraft_core.ITEMS.add(this);
 	}

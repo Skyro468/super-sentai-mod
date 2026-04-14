@@ -62,7 +62,7 @@ public class item_dark_gear extends Item implements IHasModel
 	public item_dark_gear(int effect,String name)
 	{
 		super();
-        setTranslationKey(name);
+        setUnlocalizedName(name);
         setRegistryName(name);
         TokuCraft_core.ITEMS.add(this);
 		this.setMaxDamage(0);

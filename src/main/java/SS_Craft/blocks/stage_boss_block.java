@@ -30,7 +30,7 @@ public class stage_boss_block extends Block implements IHasModel {
 		this.setHarvestLevel("pickaxe", 2);
 		setHardness(9.9F);
 		setLightLevel(0.1f);
-		setTranslationKey(string);
+		setUnlocalizedName(string);
 		setRegistryName(string);
 		this.mobFuntion = mobFunction;
         TokuCraft_core.ITEMS.add(new ItemBlock(this).setRegistryName(this.getRegistryName()));
@@ -49,7 +49,7 @@ public class stage_boss_block extends Block implements IHasModel {
 	/**
      * Called after a player destroys this Block - the posiiton pos may no longer hold the state indicated.
      */
-    public void onPlayerDestroy(World worldIn, BlockPos pos, IBlockState state) {
+    public void onBlockDestroyedByPlayer(World worldIn, BlockPos pos, IBlockState state) {
 		if (!worldIn.isRemote) {
 			EntityMob entitychicken = mobFuntion.apply(worldIn);
 

@@ -30,7 +30,7 @@ public class item_zyuoh_cube extends Item implements IHasModel
 
 		num=form;
 
-	    setTranslationKey(name);
+	    setUnlocalizedName(name);
         setRegistryName(name);
         TokuCraft_core.ITEMS.add(this);
 	}

@@ -62,7 +62,7 @@ public class item_kanaema_stone extends Item implements IHasModel
 	public item_kanaema_stone(int effect,String name)
 	{
 		super();
-        setTranslationKey(name);
+        setUnlocalizedName(name);
         setRegistryName(name);
         TokuCraft_core.ITEMS.add(this);
 		this.setMaxDamage(0);

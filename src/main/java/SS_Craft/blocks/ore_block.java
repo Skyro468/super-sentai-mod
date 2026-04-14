@@ -29,7 +29,7 @@ public class ore_block extends Block implements IHasModel
 		this.setHarvestLevel("pickaxe", lv);
 		setHardness(9.9F);
 		setLightLevel(0.1f);
-		setTranslationKey(string);
+		setUnlocalizedName(string);
 		setRegistryName(string);
 		CRYSTAL = ore;
 

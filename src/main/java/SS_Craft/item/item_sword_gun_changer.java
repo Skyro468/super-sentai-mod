@@ -64,7 +64,7 @@ public class item_sword_gun_changer extends ItemBow  implements IHasModel
 		 this.attackDamage = 3.0F + material.getAttackDamage();
 		this.maxStackSize = 1;
 		this.setMaxDamage(par2EnumToolMaterial.getMaxUses());
-        setTranslationKey(name);
+        setUnlocalizedName(name);
         setRegistryName(name);
         TokuCraft_core.ITEMS.add(this);
         base = item;
